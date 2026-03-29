@@ -1,0 +1,24 @@
+{
+  "name": "@qidu/openclaw-qnaigc-api",
+  "version": "1.0.0",
+  "type": "module",
+  "openclaw": {
+    "compat": {
+      "pluginApi": "0.0.0"
+    },
+    "build": {
+      "openclawVersion": "0.0.0"
+    },
+    "extensions": [
+      "./index.ts"
+    ],
+    "providers": [
+      "openclaw-qnaigc-api"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}

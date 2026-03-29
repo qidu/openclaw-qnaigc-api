@@ -1,0 +1,26 @@
+{
+  "id": "openclaw-qnaigc-api",
+  "name": "QNAIGC API",
+  "description": "QNAIGC models provider (Anthropic-compatible endpoint)",
+  "providers": ["openclaw-qnaigc-api"],
+  "providerAuthEnvVars": {
+    "openclaw-qnaigc-api": ["QNAIGC_API_KEY"]
+  },
+  "providerAuthChoices": [
+    {
+      "provider": "openclaw-qnaigc-api",
+      "method": "api-key",
+      "choiceId": "qnaigc-api-key",
+      "choiceLabel": "QNAIGC API key",
+      "groupId": "openclaw-qnaigc-api",
+      "groupLabel": "QNAIGC",
+      "cliFlag": "--qnaigc-api-key",
+      "cliOption": "--qnaigc-api-key <key>",
+      "cliDescription": "QNAIGC API key (or set QNAIGC_API_KEY)"
+    }
+  ],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false
+  }
+}
