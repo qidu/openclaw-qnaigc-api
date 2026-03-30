@@ -3,6 +3,9 @@
 
 OpenClaw provider plugin for several QNAIGC models defined in `index.ts`.
 
+## Models, API and Keys
+Get `QNAIGC_API_KEY` envs from [Qiniu Cloud MaaS Platform](http://www.qiniu.com/ai/models)
+
 ## File Structure
 
 ```bash
