@@ -11,6 +11,5 @@ extensions/openclaw-qnaigc-api/
 ├── openclaw.plugin.json      # Manifest with providerAuthEnvVars
 ├── index.ts                  # definePluginEntry + registerProvider
 └── src/
-    ├── provider.test.ts      # Tests
-    └── usage.ts              # Usage endpoint (optional)
+    └── provider.test.ts      # Tests
 ```
