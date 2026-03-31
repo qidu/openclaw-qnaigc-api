@@ -18,7 +18,7 @@ export const QNAIGC_MODELS = [
   { id: "qwen3.5-397b-a17b", name: "Qwen3.5 397B A17B (QNAIGC)", reasoning: false, input: ["text"], cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 }, contextWindow: 256000, maxTokens: 64000 },
   { id: "z-ai/glm-5", name: "Z-AI GLM-5 (QNAIGC)", reasoning: false, input: ["text"], cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 }, contextWindow: 128000, maxTokens: 32000 },
   { id: "stepfun/step-3.5-flash", name: "StepFun Step 3.5 Flash (QNAIGC)", reasoning: false, input: ["text"], cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 }, contextWindow: 256000, maxTokens: 32000 },
-  { id: "meituan/longcat-flash-lite", name: "Meituan LongCat Flash Lite (QNAIGC)", reasoning: false, input: ["text"], cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 }, contextWindow: 256000, maxTokens: 320000 },
+  { id: "meituan/longcat-flash-lite", name: "Meituan LongCat Flash Lite (QNAIGC)", reasoning: false, input: ["text"], cost: { input: 0, output: 0, cacheRead: 0, cacheWrite: 0 }, contextWindow: 256000, maxTokens: 32000 },
 ];
 
 export default definePluginEntry({
